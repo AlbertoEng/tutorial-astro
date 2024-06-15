@@ -27,6 +27,21 @@ h1 {
   font-size: 2.5rem;
 }
 
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #5a51e2;
+}
+
+a:active {
+  color: #0e01bb;
+
+}
+
 .hamburger {
   padding-left: 10px;
   padding-top: 10px;
@@ -78,6 +93,7 @@ h1 {
 
 @media screen and (min-width: 636px) {
   .nav-links {
+    padding: 20px;
     background-color: rgb(189, 207, 223);
     display: block;
     position: static;
